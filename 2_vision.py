@@ -31,7 +31,7 @@ def get_gemini_response(input,image):
 
 st.set_page_config(page_title="Gemini Image Demo")
 
-st.header("Gemini Application")
+st.header("Gen-AI Application")
 input=st.text_input("Input Prompt: ",key="input")
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 image=""   
